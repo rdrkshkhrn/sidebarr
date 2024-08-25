@@ -74,6 +74,125 @@
           ]
         }
       ]
+    },
+    {
+      "label": "Settings",
+      "icon": "MdSettings",
+      "children": [
+        {
+          "label": "General",
+          "icon": "MdTune"
+        },
+        {
+          "label": "Security",
+          "icon": "MdSecurity",
+          "children": [
+            {
+              "label": "Password",
+              "icon": "MdVpnKey"
+            },
+            {
+              "label": "Two-Factor Authentication",
+              "icon": "MdPhonelinkLock"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Settings",
+      "icon": "MdSettings",
+      "children": [
+        {
+          "label": "General",
+          "icon": "MdTune"
+        },
+        {
+          "label": "Security",
+          "icon": "MdSecurity",
+          "children": [
+            {
+              "label": "Password",
+              "icon": "MdVpnKey"
+            },
+            {
+              "label": "Two-Factor Authentication",
+              "icon": "MdPhonelinkLock"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Settings",
+      "icon": "MdSettings",
+      "children": [
+        {
+          "label": "General",
+          "icon": "MdTune"
+        },
+        {
+          "label": "Security",
+          "icon": "MdSecurity",
+          "children": [
+            {
+              "label": "Password",
+              "icon": "MdVpnKey"
+            },
+            {
+              "label": "Two-Factor Authentication",
+              "icon": "MdPhonelinkLock"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Settings",
+      "icon": "MdSettings",
+      "children": [
+        {
+          "label": "General",
+          "icon": "MdTune"
+        },
+        {
+          "label": "Security",
+          "icon": "MdSecurity",
+          "children": [
+            {
+              "label": "Password",
+              "icon": "MdVpnKey"
+            },
+            {
+              "label": "Two-Factor Authentication",
+              "icon": "MdPhonelinkLock"
+            }
+          ]
+        }
+      ]
+    },{
+      "label": "Settings",
+      "icon": "MdSettings",
+      "children": [
+        {
+          "label": "General",
+          "icon": "MdTune"
+        },
+        {
+          "label": "Security",
+          "icon": "MdSecurity",
+          "children": [
+            {
+              "label": "Password",
+              "icon": "MdVpnKey"
+            },
+            {
+              "label": "Two-Factor Authentication",
+              "icon": "MdPhonelinkLock"
+            }
+          ]
+        }
+      ]
     }
   ]
   

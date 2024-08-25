@@ -8,25 +8,29 @@ import {
   Drawer,
   DrawerContent,
   Button,
+  IconButton,
 } from "@chakra-ui/react";
 import Sidebar from "./sidebar";
+import { LuList } from "react-icons/lu";
 
 function App() {
   const { isOpen, onOpen, onClose } = useDisclosure();
 
   return (
     <ChakraProvider>
-      <Box h="full" title = "side">
-      <Sidebar />
-        <Button
+      <Flex direction={'row'} height={'100vh'} w='full' overflow={'hidden'} title = "parent" backgroundColor={'red'}>
+        <Sidebar display={{base:'none', md:'block'}} />
+      
+        <Box flex={1} direction={'column'} overflow='auto' title='content'>
+      
+          <Box w={'full'} h={400} bg='green' p={4}>
+          <Button
+          as={IconButton}
           onClick={onOpen}
+         
           display={{ base: "block", md: "none" }}
-          position="fixed"
-          top="1rem"
-          left="1rem"
-        >
-          Open Menu
-        </Button>
+          icon={<LuList/>}
+        />
         <Drawer
           isOpen={isOpen}
           placement="left"
@@ -40,13 +44,17 @@ function App() {
               w="auto"
               h="full"
             >
-              <Sidebar onClose={onClose} />
+              <Sidebar onClose={onClose} display={{base:"block"}}/>
             </Box>
           </DrawerContent>
         </Drawer>
-        <Box ml={{ base: 0, md: 60 }} p="4" w="full">
+          </Box>
+          <Box w={'full'} h={400} bg='black'></Box>
+          <Box w={'full'} h={400} bg='blue'></Box>
+          <Box w={'full'} h={400} bg='gray'></Box>
+
         </Box>
-      </Box>
+      </Flex>
     </ChakraProvider>
   );
 }
