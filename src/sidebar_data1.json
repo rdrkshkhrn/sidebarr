@@ -1,0 +1,79 @@
+[
+    {
+      "label": "Home",
+      "icon": "MdHome"
+    },
+    {
+      "label": "Management",
+      "icon": "MdManageAccounts",
+      "children": [
+        {
+          "label": "Users",
+          "icon": "MdPeople",
+          "children": [
+            {
+              "label": "Active Users",
+              "icon": "MdVerifiedUser"
+            },
+            {
+              "label": "Inactive Users",
+              "icon": "MdOutlinePersonOff"
+            }
+          ]
+        },
+        {
+          "label": "Projects",
+          "icon": "MdWork",
+          "children": [
+            {
+              "label": "Ongoing Projects",
+              "icon": "MdUpdate"
+            },
+            {
+              "label": "Completed Projects",
+              "icon": "MdCheckCircle"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Reports",
+      "icon": "MdAssessment",
+      "children": [
+        {
+          "label": "Monthly Reports",
+          "icon": "MdDateRange"
+        },
+        {
+          "label": "Yearly Reports",
+          "icon": "MdTimeline"
+        }
+      ]
+    },
+    {
+      "label": "Settings",
+      "icon": "MdSettings",
+      "children": [
+        {
+          "label": "General",
+          "icon": "MdTune"
+        },
+        {
+          "label": "Security",
+          "icon": "MdSecurity",
+          "children": [
+            {
+              "label": "Password",
+              "icon": "MdVpnKey"
+            },
+            {
+              "label": "Two-Factor Authentication",
+              "icon": "MdPhonelinkLock"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+  

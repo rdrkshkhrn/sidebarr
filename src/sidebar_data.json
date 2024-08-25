@@ -1,0 +1,61 @@
+[
+    {
+      "label": "Dashboard",
+      "path": "/dashboard",
+      "icon": "MdDashboard"
+    },
+    {
+      "label": "Users",
+      "icon": "MdPeople",
+      "children": [
+        {
+          "label": "Admin",
+          "path": "/users/admin",
+          "icon": "MdPerson"
+        },
+        {
+          "label": "Customers",
+          "path": "/users/customers",
+          "icon": "MdPersonOutline"
+        },
+        {
+          "label": "Managers",
+          "icon": "MdSupervisedUserCircle",
+          "children": [
+            {
+              "label": "Sales Manager",
+              "path": "/users/managers/sales",
+              "icon": "MdPerson"
+            },
+            {
+              "label": "Operations Manager",
+              "path": "/users/managers/operations",
+              "icon": "MdPerson"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Settings",
+      "icon": "MdSettings",
+      "children": [
+        {
+          "label": "Profile",
+          "path": "/settings/profile",
+          "icon": "MdPerson"
+        },
+        {
+          "label": "Security",
+          "path": "/settings/security",
+          "icon": "MdSecurity"
+        }
+      ]
+    },
+    {
+      "label": "Reports",
+      "path": "/reports",
+      "icon": "MdReport"
+    }
+  ]
+  
